@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 50%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #198754;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+.btn-primary:hover{
+    background-color: #157347;
+}
+
+.btn-secondary{
+    background-color: #1abc9c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover{
+    background-color: #16a085;
+}
+
+.btn-danger{
+    background-color: #e74c3c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-danger:hover{
+    background-color: #c0392b;
+}
+
+.success{
+    color: #6ab04c;
+}
+.error{
+    color: #eb4d4b;
+}
+
+.btn-user {
+    margin-top: 20px;
+    width: auto;
+    border: none;
+}
+
+.cus-name {
+    float: left;
+    line-height: 50%;
+    font-size: 23px;
+    font-family: monospace;
+    margin-left: -80px;
+    color: white;
+}
+
+.cus-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: -110px;
+}
+/* CSS for menu */
+.menu{
+    background-color: #273c75;
+    border-bottom: 1px solid gray ;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.menu ul li a:hover{
+    color: #f39c12;
+}
+
+.back-home {
+    color: black;
+}
+
+/* CSS for main-content */
+.main-content{
+    /* margin: 1% 0; */
+    background-color: #ecf0f1;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for footer */
+.footer{
+    background-color: #40739e;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(230, 207, 207);
+}
+
+/* CSS for login */
+
+.login {
+    /* border: 1px solid gray; */
+    /* width: 20%; */
+    margin: 5% auto;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.mg-form{
+    margin-bottom: 10px;
+}
+
+.mg-btn {
+    margin-top: 20px;
+    width: 100% !important;
+}
+.bg-img{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* Message */
+.message-box {
+    /* border: 1px solid black; */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.message-box p {
+    margin-bottom: 10px;
+    /* margin-right: 10px;
+    display: inline-block; */
+}
+
+.one-line {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+.showMessage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+/* Login user */
+.btn-login {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.btn-login a {
+    text-decoration: none; 
+    color: white;  
+    display: block; 
+    padding: 5px 0;
+}

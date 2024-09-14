@@ -1,0 +1,183 @@
+.main-content{
+    /* margin: 1% 0; */
+    background-color: #ecf0f1;
+    padding: 3% 0;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 170px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    border: 1px solid black;
+    
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 5px 10px;
+    height: 45px;
+    text-decoration: none;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* info  */
+
+.info {
+    max-width: 40rem;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.user-deltails {
+    margin-top: 15px;
+    
+}
+
+.user-deltails .info {
+    position: relative;
+    text-align: left;
+}
+
+.user-deltails .info img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 200px; /* Căn giữa hình ảnh và tạo khoảng cách dưới */
+}
+
+.info p {
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 20px;
+}
+
+.user-deltails .info button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    margin: 35px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.user-deltails .info button:hover {
+    background-color: #317b35; /* Darker green on hover */
+}
+
+.user-deltails .info button a {
+    color: white; /* Ensures the text inside the link is white */
+    text-decoration: none; /* Removes underline from link */
+}
+
+.user-deltails .info button a:hover {
+    text-decoration: none; /* Keeps underline removed on hover */
+}
+
+
+/* Update profile */
+
+.tbl-30{
+    width: 50%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 14px;
+    background-color: #f8f8f8; /* Light background color */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+
+.btn-primary{
+    background-color: #198754;
+    padding: 5%;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+ .btn-primary:hover {
+    background-color: #317b35;
+ }
+
+ .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+ }
+
+/* Message */
+.message-box {
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.message-box p {
+    margin-bottom: 20px;
+    /* margin-right: 10px;
+    display: inline-block; */
+}
+
+.one-line {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+.showMessage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
